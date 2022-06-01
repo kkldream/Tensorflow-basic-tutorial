@@ -6,7 +6,7 @@ def get_std_arr(std, num):
     arr = np.clip(arr, 0, 100)
     return arr
 
-data_num = 500
+data_num = 100
 labels = ["literature", "science"]
 col_name = ["group", "chinese", "english", "math", "nature", "society", "physics"]
 liberal_std = [(80, 10), (65, 10), (30, 10), (40, 10), (70, 15), (50, 10)]
